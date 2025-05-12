@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Russo+One&family=Share+Tech&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    h1 {
+      font-size: 32px;
+    }
+    body {
+      font-size: 22px;
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+    }
+    .vp {
+      margin-top: -40px;
+      margin-left: -40px;
+      margin-right: -40px;
+      height: 60vh;
+      background-color: rgb(216, 50, 50);
+      display: flex;
+      justify-content: center;
+    }
+    .window {
+      background-color: rgb(255, 255, 255);
+      width: 1500px;
+      height: 1000px;
+      display: flex;
+      margin-top: 120px;
+    }
+    .fields {
+      height: 40px;
+      width: 430px;
+      border-top: 0px;
+      border-left: 0px;
+      border-right: 0px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    textarea {
+      width: 430px;
+      height: 120px;
+      border-top: 0px;
+      border-left: 0px;
+      border-right: 0px;
+    }
+    .check {
+      margin-right: 10px;
+      vertical-align: middle;
+      height: 20px;
+      width: 20px;
+    }
+    .tos {
+      color: rgb(207, 80, 80);
+    }
+    .btn {
+      height: 60px;
+      width: 450px;
+      border-radius: 60px;
+      background-color: crimson;
+      color: white;
+      border: none;
+      margin-top: 50px;
+    }
+    .w-left {
+      width: 800px;
+      margin-left: 30px;
+      margin-top: 40px;
+    }
+    .w-right {
+      margin-top: -20px;
+      margin-right: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+    .img1 {
+      justify-content: left;
+      display: flex;
+    }
+    .img1-txt {
+      margin-top: 60px;
+    }
+    .img2 {
+      margin-left: 40px;
+      display: flex;
+    }
+    .img2-txt {
+      margin-top: 60px;
+      margin-left: 30px;
+      margin-top: 15px;
+    }
+    .img3 {
+      margin-left: 40px;
+      display: flex;
+    }
+    .img3-txt {
+      margin-top: 60px;
+      margin-left: 10px;
+      margin-top: 15px;
+    }
+    .bottom-section {
+      height: 40vh;
+      margin-right: -40px;
+      margin-left: -40px;
+      background-color: rgb(228, 222, 222);
+    }
+  </style>
+  <body>
+    <div class="vp">
+      <div class="window">
+        <div class="w-left">
+          <form action="">
+            <h1 style="margin-bottom: 30px">Interested In Our Services?</h1>
+            <label for="name">Name</label><br />
+            <input
+              class="fields"
+              type="text"
+              placeholder="Enter your Name"
+            /><br />
+            <label for="name">Email</label><br />
+            <input
+              class="fields"
+              type="text"
+              placeholder="Enter a valid email address"
+            /><br />
+            <label for="">Message</label><br />
+            <textarea name="" id=""></textarea>
+
+            <label
+              style="
+                display: flex;
+                align-items: center;
+                margin-top: 10px;
+                gap: 10px;
+              "
+              for=""
+            >
+              <input class="check" type="checkbox" name="accept" id="" />
+
+              I accept the <span class="tos"> terms of service</span>
+            </label>
+            <br />
+            <button class="btn">SUBMIT</button>
+          </form>
+        </div>
+        <div class="w-right">
+          <div class="img1">
+            <img
+              style="margin-top: 30px"
+              height="150px"
+              width="150px"
+              src="bulb.jpg"
+              alt=""
+            />
+            <div class="img1-txt">
+              <h2>DIGITAL SOLUTIONS</h2>
+              <p>
+                Sample text. Click to select the text box. Click again or double
+                click to start editing the text.
+              </p>
+            </div>
+          </div>
+
+          <div class="img2">
+            <img
+              style="margin-top: 30px"
+              height="80px"
+              width="80px"
+              src="graph.png"
+              alt=""
+            />
+            <div class="img2-txt">
+              <h2>MARKETING & SOLUTIONS</h2>
+              <p>
+                Sample text. Click to select the text box. Click again or double
+                click to start editing the text.
+              </p>
+            </div>
+          </div>
+          <div class="img3">
+            <img
+              style="margin-top: 30px"
+              height="100px"
+              width="100px"
+              src="doc.jpg"
+              alt=""
+            />
+            <div class="img3-txt">
+              <h2>CONSULTING</h2>
+              <p>
+                Sample text. Click to select the text box. Click again or double
+                click to start editing the text.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-section"></div>
+  </body>
+</html>
